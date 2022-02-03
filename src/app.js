@@ -8,26 +8,26 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   let excuseGenerator = () => {
     let who = [
-      "My dog ",
+      "A dog ",
       "A barracuda ",
       "Captain Planet ",
       "The Queen of England ",
-      "My cat "
+      "A Capybara "
     ];
     let verb = ["ate ", "ran over ", "trampled ", "stole ", "punched "];
     let what = [
       "my laptop ",
       "my webcam ",
-      "my rock collection ",
+      "my Furby ",
       "my iguana ",
       "my buspass "
     ];
     let when = [
-      "last Tuesday",
-      "yesterday",
-      "on my Grandma's birthday",
-      "this morning",
-      "on Arbor Day"
+      "last Tuesday!",
+      "yesterday!",
+      "on Grandma's birthday!",
+      "this morning!",
+      "last night!"
     ];
 
     let whoIndex = Math.floor(Math.random() * who.length);
